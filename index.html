@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>DotsDrive - Simple Digital Solutions</title>
+  <meta name="description" content="DotsDrive provides simple, fast, and reliable digital solutions for modern businesses." />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1f2937;
+      background: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e5e7eb;
+      background: #ffffff;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #111827;
+    }
+
+    nav a {
+      margin-left: 24px;
+      text-decoration: none;
+      color: #374151;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #2563eb;
+    }
+
+    .hero {
+      padding: 110px 8%;
+      text-align: center;
+      background: linear-gradient(135deg, #f8fafc, #eef2ff);
+    }
+
+    .hero h1 {
+      max-width: 900px;
+      margin: 0 auto 20px;
+      font-size: 52px;
+      line-height: 1.15;
+      color: #111827;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 0 auto 32px;
+      font-size: 20px;
+      color: #4b5563;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 24px;
+      background: #2563eb;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.2s ease;
+    }
+
+    .button:hover {
+      background: #1d4ed8;
+      transform: translateY(-1px);
+    }
+
+    section {
+      padding: 80px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .section-title h2 {
+      font-size: 36px;
+      color: #111827;
+      margin-bottom: 12px;
+    }
+
+    .section-title p {
+      color: #6b7280;
+      font-size: 18px;
+    }
+
+    .about {
+      background: #f9fafb;
+    }
+
+    .about-content {
+      max-width: 850px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 18px;
+      color: #4b5563;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .card {
+      padding: 28px;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      background: #ffffff;
+      box-shadow: 0 10px 20px rgba(17, 24, 39, 0.04);
+    }
+
+    .card h3 {
+      font-size: 22px;
+      margin-bottom: 12px;
+      color: #111827;
+    }
+
+    .card p {
+      color: #6b7280;
+    }
+
+    .contact {
+      text-align: center;
+      background: #111827;
+      color: #ffffff;
+    }
+
+    .contact h2 {
+      font-size: 36px;
+      margin-bottom: 16px;
+    }
+
+    .contact p {
+      color: #d1d5db;
+      margin-bottom: 28px;
+      font-size: 18px;
+    }
+
+    .contact .button {
+      background: #ffffff;
+      color: #111827;
+    }
+
+    .contact .button:hover {
+      background: #f3f4f6;
+    }
+
+    footer {
+      padding: 24px 8%;
+      text-align: center;
+      color: #6b7280;
+      border-top: 1px solid #e5e7eb;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      nav a {
+        margin: 0 8px;
+        font-size: 14px;
+      }
+
+      .hero {
+        padding: 80px 6%;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+
+      section {
+        padding: 64px 6%;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .section-title h2,
+      .contact h2 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">DotsDrive</div>
+
+    <nav>
+      <a href="#product">Product</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Simple, Fast, and Reliable Digital Solutions</h1>
+      <p>
+        DotsDrive helps businesses build a clear digital presence with simple tools,
+        reliable systems, and user-friendly experiences.
+      </p>
+      <a class="button" href="#contact">Contact Us</a>
+    </section>
+
+    <section id="product" class="about">
+      <div class="section-title">
+        <h2>About DotsDrive</h2>
+        <p>A simple way to present your business, product, or digital service.</p>
+      </div>
+
+      <div class="about-content">
+        <p>
+          DotsDrive is focused on delivering clean, practical, and efficient digital solutions.
+          Whether you are introducing a product, presenting a service, or building your online
+          presence, DotsDrive keeps things simple, fast, and effective.
+        </p>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="section-title">
+        <h2>What We Offer</h2>
+        <p>Designed for clarity, speed, and reliability.</p>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Clean Presentation</h3>
+          <p>
+            Present your company, product, or service with a modern and easy-to-understand website.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Fast Experience</h3>
+          <p>
+            Static websites load quickly and provide a smooth experience across desktop and mobile devices.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Easy Contact</h3>
+          <p>
+            Let visitors contact you directly through email, phone, or messaging platforms.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact DotsDrive</h2>
+      <p>Interested in learning more? Get in touch with us.</p>
+      <a class="button" href="mailto:hello@dotsdrive.com">hello@dotsdrive.com</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 DotsDrive. All rights reserved.
+  </footer>
+</body>
+</html>
