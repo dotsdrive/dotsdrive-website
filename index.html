@@ -38,9 +38,18 @@
     }
 
     .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
       font-size: 24px;
       font-weight: bold;
       color: #111827;
+    }
+
+    .logo img {
+      height: 36px;
+      width: auto;
+      display: block;
     }
 
     nav a {
@@ -223,7 +232,10 @@
 
 <body>
   <header>
-    <div class="logo">DotsDrive</div>
+    <div class="logo">
+      <img src="assets/dotsdrive-icon.png" alt="DotsDrive Logo" />
+      <span>DotsDrive</span>
+    </div>
 
     <nav>
       <a href="#product">Product</a>
