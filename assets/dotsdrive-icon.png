@@ -1,0 +1,167 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="transparent"/>
+
+  <!-- dotsdrive icon only -->
+  <g transform="translate(90 155)">
+
+    <!-- 
+      Dots:
+      Same size.
+      Each dot is slightly moved left to visually align above dash endpoints.
+      The vertical gap between each dot and its dash remains consistent.
+    -->
+    <circle cx="244" cy="280" r="54" fill="url(#dot1Grad)"/>
+    <circle cx="502" cy="190" r="54" fill="url(#dot2Grad)"/>
+    <circle cx="810" cy="21" r="54" fill="url(#dot3Grad)"/>
+
+
+    <!-- 
+      Dashes:
+      Bottoms are aligned on the same baseline.
+      Heights increase from left to right.
+      Baseline: y = 650
+    -->
+
+    <!-- Dash 1: lowest / shortest height -->
+    <path 
+      d="M0 620
+         L124 420
+         C130 410 141 404 153 404
+         H262
+         C277 404 285 420 276 432
+         L152 632
+         C146 642 135 648 123 648
+         H14
+         C0 648 -8 632 0 620Z" 
+      fill="url(#dash1Grad)"
+    />
+
+    <!-- Dash 1 3D facet -->
+    <path 
+      d="M24 621
+         L269 412
+         L152 632
+         C146 642 135 648 123 648
+         H14
+         C6 648 1 644 0 638
+         L24 621Z"
+      fill="url(#dash1Facet)"
+      opacity="0.55"
+    />
+
+
+    <!-- Dash 2: higher -->
+    <path 
+      d="M190 620
+         L358 330
+         C364 320 375 314 387 314
+         H520
+         C535 314 543 330 534 342
+         L366 632
+         C360 642 349 648 337 648
+         H204
+         C190 648 181 632 190 620Z"
+      fill="url(#dash2Grad)"
+    />
+
+    <!-- Dash 2 3D facet -->
+    <path 
+      d="M216 621
+         L527 322
+         L366 632
+         C360 642 349 648 337 648
+         H204
+         C196 648 191 644 190 638
+         L216 621Z"
+      fill="url(#dash2Facet)"
+      opacity="0.58"
+    />
+
+
+    <!-- Dash 3: highest, increased height -->
+    <path 
+      d="M410 620
+         L640 161
+         C646 151 657 145 669 145
+         H828
+         C843 145 851 161 842 173
+         L612 632
+         C606 642 595 648 583 648
+         H424
+         C410 648 401 632 410 620Z"
+      fill="url(#dash3Grad)"
+    />
+
+    <!-- Dash 3 3D facet -->
+    <path 
+      d="M440 621
+         L835 153
+         L612 632
+         C606 642 595 648 583 648
+         H424
+         C416 648 411 644 410 638
+         L440 621Z"
+      fill="url(#dash3Facet)"
+      opacity="0.62"
+    />
+
+  </g>
+
+  <defs>
+    <!-- Dots gradients -->
+    <radialGradient id="dot1Grad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(224 260) scale(78)">
+      <stop stop-color="#55D8FF"/>
+      <stop offset="0.45" stop-color="#087DE8"/>
+      <stop offset="1" stop-color="#06318E"/>
+    </radialGradient>
+
+    <radialGradient id="dot2Grad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(482 170) scale(78)">
+      <stop stop-color="#2BC4FF"/>
+      <stop offset="0.45" stop-color="#066DDA"/>
+      <stop offset="1" stop-color="#052873"/>
+    </radialGradient>
+
+    <radialGradient id="dot3Grad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(790 1) scale(78)">
+      <stop stop-color="#149EFF"/>
+      <stop offset="0.45" stop-color="#0058C8"/>
+      <stop offset="1" stop-color="#041F5E"/>
+    </radialGradient>
+
+
+    <!-- Dash gradients -->
+    <linearGradient id="dash1Grad" x1="0" y1="404" x2="285" y2="648" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5ADBFF"/>
+      <stop offset="0.42" stop-color="#109DEB"/>
+      <stop offset="1" stop-color="#0063C8"/>
+    </linearGradient>
+
+    <linearGradient id="dash2Grad" x1="190" y1="314" x2="543" y2="648" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#26C4FF"/>
+      <stop offset="0.42" stop-color="#0874E3"/>
+      <stop offset="1" stop-color="#003FA8"/>
+    </linearGradient>
+
+    <linearGradient id="dash3Grad" x1="410" y1="145" x2="851" y2="648" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#119EFF"/>
+      <stop offset="0.42" stop-color="#005ED5"/>
+      <stop offset="1" stop-color="#002E8A"/>
+    </linearGradient>
+
+
+    <!-- 3D facet gradients -->
+    <linearGradient id="dash1Facet" x1="0" y1="648" x2="285" y2="404" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0060B6"/>
+      <stop offset="1" stop-color="#A5ECFF"/>
+    </linearGradient>
+
+    <linearGradient id="dash2Facet" x1="190" y1="648" x2="543" y2="314" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#003FA3"/>
+      <stop offset="1" stop-color="#5DD3FF"/>
+    </linearGradient>
+
+    <linearGradient id="dash3Facet" x1="410" y1="648" x2="851" y2="145" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#002B84"/>
+      <stop offset="1" stop-color="#2CB8FF"/>
+    </linearGradient>
+  </defs>
+</svg>
